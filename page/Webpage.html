@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pagestyle.css">
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#flip").hover(function() {
+                $("#panel").stop().slideDown(slow);
+            }, function() {
+                $("#panel").slideUp(slow);
+            })
+        })
+    </script>
+</head>
+<body>
+    <!-- <header class="head"> -->
+    <nav>
+        <div class = "nav_bar">
+            <span class = "logo"><a  href="http://127.0.0.1:5500/Webpage.html"><img src="./img/T1로고.jpg" alt="로고"></a></span>
+            <div class="menu" >
+                <ul class = "nav_links">
+                    <li id="flip"><a href="#"></a>About
+                        <div class= "submenu" id="panel"> 
+                            <ul>
+                                <li><a href="#">1</a></li>
+                                <br>
+                                <li><a href="#">2</a></li>
+                                <br>
+                                <li><a href="#">3</a></li>
+                            </ul>
+                        </div>    
+                    </li>
+                    <li id = "flip"><a href="#"></a>Connect
+                        <div class= "submenu" id="panel"> 
+                            <ul>
+                                <li><a href="#">4</a></li>
+                                <br>
+                                <li><a href="#">5</a></li>
+                                <br>
+                                <li><a href="#">6</a></li>
+                            </ul>
+                        </div>    
+                    </li>
+                    <li id="flip"><a href="#"></a>Community
+                        <div class= "submenu" id="panel">     
+                            <ul class >
+                                <li><a href="https://www.instagram.com/t1lol/"><img src="//i.namu.wiki/i/_yFaRbSO6uCeGRz__BI07oP8fRiBMheJBrr7ZExHH44GyPdvhXA0Fe1RWX3pMQdPYpSbXVHrskkG1op0MRHAWbctDjWlMUQeDMp39gC7VbGtXT87H60RpGPCfWlPmXf9u2ZLwatpOfaa4MBUKaLkOg.svg" alt="instagram"></a></li>
+                                <br>
+                                <li><a href="https://www.youtube.com/user/SKTTeam1st"><img src="//i.namu.wiki/i/ukxxHvt4bQ1g3iWHy9bTb_5k-U7VKJFSKw4wIwPXQwNCxKXR11y-zqlpLtGOQL0mqVHuoCbyh4rT93Xz4iwXIQ.svg" alt="youtube"></a></li>
+                                <br>
+                                <li><a href="https://twitter.com/T1LoL"><img src="//i.namu.wiki/i/UPGJCP11gn9Gp1uwKO3Gro_l9RbzW5Zy3HCjAC86uuYXr4HFoAXwxvpASkiDLVCydTDvxxk192T1w6qB0g4LN1ARzSLWDBLiGlOmz5a0Hw82TFmLQEmVy5G_zZpcMTyRbyv8JP1s94Mf9_iwc1ysLA.svg" alt="twitter"></a></li>
+                            </ul>
+                        </div>    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--============ Main==================== -->
+    <main>
+        <div class = "as_t1">
+            <h3>Together as One</h3>
+        </div>
+        <table>
+            <div class = "tb">
+                <div class = "lane">
+                    <tr>
+                        <th><img src="#" alt="top"></th>
+                        <th><img src="#" alt="jug"></th>
+                        <th><img src="#" alt="mid"></th>
+                        <th><img src="#" alt="ad"></th>
+                        <th><img src="#" alt="sup"></th>
+                    </tr>
+                </div>
+                <div class = "player">
+                    <tr>
+                        <td><img src="./img/zeus.jpg" alt="Zeus"></td>
+                        <td><img src="./img/oner.jpg" alt="Oner"></td>
+                        <td><img src="./img/faker.jpg" alt="Faker"></td>
+                        <td><img src="./img/gumayushi.jpg" alt="Gumayusi"></td>
+                        <td><img src="./img/keria.jpg" alt="Keria"></td>
+                    </tr>
+                </div>
+            </div>
+        </table>    
+    </main>
+</body>
+</html>
