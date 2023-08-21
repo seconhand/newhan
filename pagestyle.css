@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+/* 메뉴바 설정 ==========================*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+nav .nav_bar {
+    position: relative;
+    height:  100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    padding :0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* =================================================== */
+
+/* 메뉴 설정 =============================*/
+.nav_bar .nav_links {
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar .nav_links li {
+    margin: 0 5px;
+    list-style: none;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav_links li a{
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+    color: aqua;
+    padding: 20px;
+}
+/* ==================================== */
+
+/*로고 이미지 설정  */
+.nav_bar .logo img {
+    position: relative;
+    height: 70px;
+    width: auto;
+}
+
+.nav_links img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    /* padding: 0 1px; */
+    align-items: center;
+    list-style: none;
+}
+/* ======================================= */
+
+/* 슬라이드 바 메뉴 설정 =====================*/
+.nav_bar .menu {
+    position: relative;
+    width: 33%;
+    padding-left: 30px;
+}
+
+.nav_links .submenu {
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding : 20px;
+    display: none;
+}
+/* ======================================= */
+
+/* Main====================================== */
+
+main {
+    width: 1200px;
+    height: 540px;
+}
